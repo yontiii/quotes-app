@@ -7,10 +7,10 @@ import {Quote} from '../quote'
 })
 export class QuotesComponent implements OnInit {
     quotes = [
-      new Quote("Don't cry because it's over, smile because it happened","Dr. Seuss","John Muasa",new Date(2019,3,19)),
-      new Quote("Be yourself; everyone else is already taken.","Oscar Wilde","John Muasa",new Date(2019,3,20)),
-      new  Quote("So many books, so little time","Frank Zappa","John Muasa",new Date(2019,3,21)),
-      new Quote("You only live once, but if you do it right, once is enough.","Mae West","John Muasa",new Date(2019,3,22))
+      new Quote("Don't cry because it's over, smile because it happened","Dr. Seuss","John Muasa",new Date(2019,2,19)),
+      new Quote("Be yourself; everyone else is already taken.","Oscar Wilde","John Muasa",new Date(2019,2,20)),
+      new  Quote("So many books, so little time","Frank Zappa","John Muasa",new Date(2019,2,21)),
+      new Quote("You only live once, but if you do it right, once is enough.","Mae West","John Muasa",new Date(2019,2,22))
     ]
 
     showDetails(index){

@@ -1,12 +1,9 @@
-<p> This quote was published by {{quote.publisher}}</p>
+<p> This quote was published by {{quote.publisher}}</p> <br>
 <button type="button" (click)='upVote()'>Upvotes 0</button>
-<span id="
-upvote">
-
-</span>
 <button type="button">Downvotes 0</button>
-
+<br>
 <p>
     This quote was posted {{quote.publishDate|dateCount}} days ago.
 </p>
-<button (click) = 'QuoteDelete(true)' class="btn btn-danger"> Delete Quote </button>
+<br>
+<button (click) = 'quoteDelete(true)' class="btn btn-danger"> Delete Quote </button>

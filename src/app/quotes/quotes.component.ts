@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,EventEmitter } from '@angular/core';
 import {Quote} from '../quote'
 @Component({
   selector: 'app-quotes',
@@ -20,6 +20,16 @@ export class QuotesComponent implements OnInit {
     public initScore = 0;
     upVote () {
       return this.initScore +=1;
+    }
+
+    deleteQuote(isComplete,index){
+      if(isComplete){
+        let toDelete = confirm('Are you sure you want to delete this ${this.quotes[index].quote}')
+
+        if(toDelete){
+          this.quotes.splice(index,1)
+        }
+      }
     }
 
   constructor() { }

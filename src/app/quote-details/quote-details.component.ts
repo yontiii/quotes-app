@@ -7,6 +7,12 @@ import {Quote} from '../quote'
 })
 export class QuoteDetailsComponent implements OnInit {
   @Input() quote:Quote;
+ 
+  public initValue=0;
+   upVote(){
+    let total =this.initValue +=1;
+   }
+  
   constructor() { }
 
   ngOnInit() {

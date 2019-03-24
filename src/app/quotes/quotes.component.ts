@@ -12,6 +12,16 @@ export class QuotesComponent implements OnInit {
       new  Quote("So many books, so little time","Frank Zappa","John Muasa"),
       new Quote("You only live once, but if you do it right, once is enough.","Mae West","John Muasa")
     ]
+
+    showDetails(index){
+      this.quotes[index].showPublisher = !this.quotes[index].showPublisher;
+    }
+
+    public initScore = 0;
+    upVote () {
+      return this.initScore +=1;
+    }
+
   constructor() { }
 
   ngOnInit() {

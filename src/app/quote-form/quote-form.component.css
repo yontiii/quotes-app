@@ -1,56 +1,5 @@
+@import "~bootstrap/dist/css/bootstrap.css"
 
 
 
-
- .box{
-    
-    padding: 40px;
-    box-sizing: border-box;
-    width: 400px;
-    box-shadow: 0 5px 10px rgba(
-        0,0,0,.2 green, blue, alpha);
-        background-color: #FAFAFA;
-    }
-  .box h2{
-      margin:0 0 40px;
-      padding: 0;
-      color:#E91E63;
-        text-decoration: underline;
-        font-family: 'Tangerine', cursive;
-        font-size:50px;
-  }
-  .box input {
-      padding: 10px 0;
-      margin-bottom: 30px;
-      border-top:none;
-  }
-  .box textarea{
-     height: 80px;
-     padding: 10px 0;
-     margin-bottom: 40px; 
-  }
-  .box input,  .box textarea{
-      width: 100%;
-      box-sizing: border-box;
-      box-shadow:none;
-      border-bottom: 2px solid #999
-  }
- label{
-    top:10px;
-    left: 0;
-    color:#E91E63; 
-    transition:.5s;
-    font-size:40px;
-    font-family: 'Tangerine', cursive;
-    pointer-events: none;
-
- }
- .box input:focus ~ label, .box textarea:focus ~ label{
-     top: -12px;
-     left:0;
-     color: #F8BBD0;
-     font-size:12px;
-     font-weight: bold;
-
- }
  

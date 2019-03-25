@@ -7,8 +7,10 @@
     <div class="col-md-7">
         <div class="card card-primary">
             <div class= "card-body" *ngFor="let quote of quotes let i =index">
-            
-                {{quote.quote}} <br> - {{quote.author}} <br>
+            <ul>
+              <li>{{quote.quote}} <br> - {{quote.author}} <br></li>
+            </ul>
+                
                 This quote was published on {{quote.publishDate|date}} <br>
                 <button  (click)='showDetails(i)' type="button" class="btn btn-primary">Show Details</button>
                 <app-quote-details   *ngIf="quote.showPublisher" [quote]='quote' (isComplete)='deleteQuote

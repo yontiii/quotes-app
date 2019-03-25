@@ -1,6 +1,6 @@
 import { Component, OnInit,EventEmitter } from '@angular/core';
 import {Quote} from '../quote'
-import { globalAgent } from 'http';
+
 @Component({
   selector: 'app-quotes',
   templateUrl: './quotes.component.html',

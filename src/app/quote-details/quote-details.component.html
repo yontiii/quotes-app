@@ -1,6 +1,6 @@
 <p> This quote was published by {{quote.publisher}}</p> <br>
-<button type="button" (click)='quotePlus(true)'>Upvotes 0</button>
-<button type="button" (click)='quoteMinus(true)'>Downvotes 0</button>
+<button type="button" (click)='quotePlus(true)'>{{quote.upVote}} </button>
+<button type="button" (click)='quoteMinus(true)'>{{quote.downVote}} </button>
 <br>
 <p>
     This quote was posted {{quote.publishDate|dateCount}} days ago.

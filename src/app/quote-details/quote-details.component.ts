@@ -9,16 +9,21 @@ import {Quote} from '../quote'
 export class QuoteDetailsComponent implements OnInit {
   @Input() quote:Quote;
   @Output() isComplete = new EventEmitter<boolean>()
+  @Output() isPlus = new EventEmitter<boolean>();
+  @Output() isMinus= new EventEmitter<boolean>();
 
 
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
  
-  public initValue=0;
-   upVote(){
-    let total =this.initValue +=1;
-   }
+  quotePlus(plus:boolean){
+    this.isPlus.emit(plus);
+  }
+
+  quoteMinus(minus:boolean){
+    this.isMinus.emit(minus);
+  }
   
   constructor() { }
 

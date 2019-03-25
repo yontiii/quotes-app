@@ -35,12 +35,29 @@
  label{
     top:10px;
     left: 0;
-    color:#E91E63; 
+    color:#00B8D4; 
     transition:.5s;
-    font-size:40px;
+    font-size:44px;
     font-family: 'Tangerine', cursive;
     pointer-events: none;
+    font-weight:bold;
 
  }
+ body{
+     margin: 0;
+     padding: 0;
+     background-image: url('https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+ li{
+     list-style: none;
+     font-size:40px;
+     font-family:'Tangerine', cursive;
+     font-weight: ;
+ }
  
- 
+ .card{
+     opacity:0.85;
+ }

@@ -12,7 +12,7 @@
             </ul>
                 
                 This quote was published on {{quote.publishDate|date}} <br>
-                <button  (click)='showDetails(i)' type="button" class="btn btn-primary">Show Details</button>
+                <button  (click)='showDetails(i)' type="button" class="btn btn-info">Show Details</button>
                 <app-quote-details   *ngIf="quote.showPublisher" [quote]='quote' (isComplete)='deleteQuote
                 ($event,i)' (isPlus)='quotePlus($event,i)' (isMinus)='quoteMinus($event,i)'></app-quote-details>
                

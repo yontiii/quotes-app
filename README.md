@@ -25,7 +25,7 @@ To, view more quote details, such as number of quote likes and dislikes, click o
 
 
 # BEHAVIOUR DRIVEN DEVELOPMENT
-|| GENERAL BEHAVIOUR | INPUT | OUTPUT|
+| GENERAL BEHAVIOUR | INPUT | OUTPUT|
 |:------------------|:--------|:-----------|
 |Enter quote| string input|Display quote written|
 |Enter name| string input|Display the author of the quote|

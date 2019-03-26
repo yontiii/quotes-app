@@ -4,9 +4,33 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This is a web-app that allows users to add quotes  and view them live on the site.
 
-##Author
-This project was created by John Muasa, a student at Moringa School.
+# SETUP INSTRUCTIONS
+Once you open the page, Enter the necessary quote values in the quotes form
 
+![Quoteform](/home/moringa/Desktop/quotes/src/assets/details.png)
+
+After entering all necessary buttons, click on the submit button below
+
+![submit image](/home/moringa/Desktop/quotes/src/assets/submit.png)
+
+You can now view your quote on the Quotes section
+
+
+![quotes image](/home/moringa/Desktop/quotes/src/assets/details.png)
+
+To, view more quote details, such as number of quote likes and dislikes, click on the ShowDetails button.
+
+
+![details image](/home/moringa/Desktop/quotes/src/assets/delete.png)
+
+
+# BEHAVIOUR DRIVEN DEVELOPMENT
+|| GENERAL BEHAVIOUR | INPUT | OUTPUT|
+|:------------------|:--------|:-----------|
+|Enter quote| string input|Display quote written|
+|Enter name| string input|Display the author of the quote|
+|Enter publish Date|date input|Display day quote was published|
+|Click submit button|------|Display inputted quote in the quotes section|
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

@@ -11,8 +11,7 @@ export class QuotesComponent implements OnInit {
       new Quote("Don't cry because it's over, smile because it happened","Dr. Seuss","John Muasa",new Date(2019,2,20),0,0),
       new Quote("Be yourself; everyone else is already taken.","Oscar Wilde","John Muasa",new Date(2019,2,16),0,0),
       new  Quote("So many books, so little time","Frank Zappa","John Muasa",new Date(2019,2,21),0,0),
-      new Quote("You only live once, but if you do it right, once is enough.","Mae West","John Muasa",new Date(2019,2,15),0,0)
-    ]
+      ]
 
     showDetails(index){
       this.quotes[index].showPublisher = !this.quotes[index].showPublisher;

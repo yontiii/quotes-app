@@ -1,20 +1,16 @@
 # Quotes
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 This is a web-app that allows users to add quotes  and view them live on the site.
 
+**Author** :John Muasa
+
 # SETUP INSTRUCTIONS
 1.Once you open the page, Enter the necessary quote values in the quotes form
 
-
-
 2.After entering all necessary buttons, click on the submit button below
 
-
-
 3.You can now view your quote on the Quotes section
-
 
 4.To, view more quote details, such as number of quote likes and dislikes, click on the ShowDetails button
 

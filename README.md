@@ -25,6 +25,7 @@ This is a web-app that allows users to add quotes  and view them live on the sit
 
 ## TECHNOLOGIES USED
 1.Angular 6
+
 2.Typescript.
 
 ## BUGS

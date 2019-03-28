@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import {Quote} from '../quote'
+import *  as $ from 'jquery';
 
 @Component({
   selector: 'app-quote-form',
@@ -18,6 +19,9 @@ export class QuoteFormComponent implements OnInit {
   }
 
   ngOnInit() {
+    $(document).ready(function(){
+      $(".box").fadeIn(2000)
+    })
   }
 
 }

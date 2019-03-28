@@ -23,6 +23,13 @@ This is a web-app that allows users to add quotes  and view them live on the sit
 |Enter publish Date|date input|Display day quote was published|
 |Click submit button|------|Display inputted quote in the quotes section|
 
+## TECHNOLOGIES USED
+1.Angular 6
+2.Typescript.
+
+## BUGS
+The project has no known bugs as all errors and malfunctions have been cleared.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
